@@ -8,7 +8,7 @@
 ## Install
 
 ```
-asdf plugin-add gradle https://github.com/joschi/asdf-gradle-profiler.git
+asdf plugin-add gradle-profiler https://github.com/joschi/asdf-gradle-profiler.git
 ```
 
 ## Use
