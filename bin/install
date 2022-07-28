@@ -2,7 +2,7 @@
 
 function download_url() {
   local version=$1
-  echo "https://repo.gradle.org/gradle/ext-releases-local/org/gradle/profiler/gradle-profiler/${version}/gradle-profiler-${version}.zip"
+  echo "https://repo1.maven.org/maven2/org/gradle/profiler/gradle-profiler/${version}/gradle-profiler-${version}.zip"
 }
 
 fail() {
