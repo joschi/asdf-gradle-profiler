@@ -32,7 +32,7 @@ function install()
   local install_path=$3
 
   if [ "version" != "${install_type}" ]; then
-    echo "The asdf-gradle-profiler plugin only supports intalling official" >&2
+    echo "The asdf-gradle-profiler plugin only supports installing official" >&2
     echo "binary releases as built by the Gradle team." >&2
     echo "If you want to install another version from source, see:" >&2
     echo "https://github.com/gradle/jgradle-profiler/" >&2
