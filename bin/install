@@ -35,7 +35,7 @@ function install()
     echo "The asdf-gradle-profiler plugin only supports installing official" >&2
     echo "binary releases as built by the Gradle team." >&2
     echo "If you want to install another version from source, see:" >&2
-    echo "https://github.com/gradle/jgradle-profiler/" >&2
+    echo "https://github.com/gradle/gradle-profiler/" >&2
     exit 1
   fi
 
