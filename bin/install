@@ -16,7 +16,7 @@ function validateArchive()
   local authentic_checksum="${2}"
 
   if command -v sha512sum >/dev/null 2>&1; then
-    sha512sum -c <<<"$authentic_checksum  $archive_file_name"
+    sha512sum -c - <<<"$authentic_checksum  $archive_file_name"
   elif command -v shasum >/dev/null 2>&1; then
     shasum -a 512 -c <<<"$authentic_checksum  $archive_file_name"
   else
